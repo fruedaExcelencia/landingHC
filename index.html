@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/brands.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/solid.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Historia Clinica Web</title>
+</head>
+<body>
+
+    <div class="home" id="home">
+        <nav>
+            <a class="navButton" href="#home">Home</a>
+            <a class="navButton" href="#producto">Producto</a>
+            <a class="navButton" href="#precio">Precios</a>
+            <a class="navButton" href="#contacto">Contacto</a>
+        
+        </nav>
+        <!-- <img src="./img/forma.png" alt="" class="form"> -->
+        <img src="./img/carpetas.png" alt="" class="carpetas">
+        <div class="titles">
+
+            <h1 class="tituloPrinicipal">UNA NUEVA FORMA DE ENTENDER LA SALUD</h1>
+            <h3 class="subtituloPrincipal">ORGANIZA TU HISTORIA CLINICA, GESTIONA TURNOS Y MEJORA LA ATENCIÓN A TUS PACIENTES.</h3>
+            <button class="registrateGratis">REGISTRATE GRATIS</button>
+        </div>
+
+    </div>
+
+    <div class="producto" id="producto">
+        <h2 class="unaSolucionDeExcelencia">
+            Una solución de Excelencia  para organizar de forma rápida, sencilla y eficaz todos los datos de tu organización.
+        </h2>
+
+        <div class="tarjetas">
+            <div class="historia sub">
+                <img src="./img/historia.png" alt="" class="icono">
+                <h2 class="titulo">Historia Clínica Electrónica </h2>
+                <h4 class="body">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</h4>
+            </div>
+            <div class="turnos sub">
+                <img src="./img/turnos.png" alt="" class="icono">
+                <h2 class="titulo">Turnos Online</h2>
+                <h4 class="body">Tracking tasks allows everyone to understand which are more important or require more time, so </h4>
+            </div>
+            <div class="internacion sub">
+                <img src="./img/internacion.png" alt="" class="icono">
+                <h2 class="titulo">Internación</h2>
+                <h4 class="body">Tracking tasks allows everyone to understand which are more important or require more time, so </h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="historiaClinica">
+        <h1 class="titleHistoriaClinica">¿Por que necesitas historia clínica electrónica?</h1>
+
+        <ul class="ventajasHistoriaClinica">
+            <li>Acceso para múltiples proveedores de atención medica</li>
+            <li>Eliminan los inconvenientes que ocasionan las anotaciones realizadas a mano.</li>
+            <li>Historias clínicas organizadas y centralizadas</li>
+            <li>Gestión de turnos online</li>
+            <li>Gestión de farmacia y enfermeria</li>
+        </ul>
+
+        <img src="./img/doctorPC.png" alt="" class="imagenHistoriaClinica">
+    </div>
+
+
+    <div class="precio" id="precio">
+        <h1 class="tituloPrecio">Nuestros Planes</h1>
+
+        <div class="tarjetasPlanes">
+            <div class="tarjeta tarjeta1">
+                <div class="card">
+                    <h2 class="tituloCard">Turnos</h2>
+                    <h2 class="precioCard precio1">0$</h2>
+                    <button class="cardButton button1">Comenzar</button>                    
+                </div>
+            </div>
+            <div class="tarjeta tarjeta2">
+                <div class="card">
+                    <h2 class="tituloCard">Historia Clíncia</h2>
+                    <h2 class="precioCard precio2">$25</h2>
+                    <button class="cardButton button2">Comenzar</button>
+                </div>
+            </div>
+            <div class="tarjeta tarjeta3">
+                <div class="card">
+                    <h2 class="tituloCard">Internación</h2>
+                    <h2 class="precioCard precio3">$5</h2>
+                    <button class="cardButton button3">Comenzar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="contacto" id="contacto">
+            <div class="columna"></div>
+            <div class="columnaLogo">
+                <img src="./img/LogoBlancoExcelencia.png" alt="" class="logo">
+                <h2 class="mantenteEnContacto">Mantente en contacto!</h2>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="columna">
+                <h3>Accesos Rapidos</h3>
+                <div class="">
+                    <a href="">About</a><br>
+                    <a href="#home">Home</a><br>
+                    <a href="#precio">Precio</a><br>
+                    <a href="#contacto">Contacto</a><br>
+                    <a href="#">Office</a><br>
+                </div>
+            </div>
+            <div class="columna">
+                <h3>Horarios de Atención</h3>
+            </div>
+            <div class="columna">
+                <h3>Contacto</h3>
+            </div>
+        </div>
+
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+
+
+    <script>
+        $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+    </script>
+    
+</body>
+</html>
