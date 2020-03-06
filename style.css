@@ -186,6 +186,44 @@ nav {
     top: 2vw;
 }
 
+
+.historiaClinica .socioCorporativo {
+    position: absolute;
+    bottom: 7vw;
+    right: 1vw;
+    width: 35%;
+    text-align: center;
+}
+
+.historiaClinica .socioCorporativo .tituloProgramaDeSocio {
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.historiaClinica .socioCorporativo .aumentaTusIngresos {
+    color: white;
+    font-family: 'Poppins';
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.historiaClinica .socioCorporativo .saberMasSocioCorporativo {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #08A6E4;
+    font-weight: bold;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+
 .precio {
     background-color: #36ACE2;
     height: 60vw;
